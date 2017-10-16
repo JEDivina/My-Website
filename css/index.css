@@ -1,0 +1,100 @@
+body {
+  padding-top: 50px;
+  background-color: #020731;
+}
+
+.whole-page{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar {
+  margin-bottom: 50px;
+  background-color: #020731;
+}
+
+.navbar-default{
+  border-color: #020731;
+  
+}
+
+.media-object{
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/*#12184b complementary color to add?*/
+/*#021e31 and #150231 analogous colors*/
+.text {
+  color: white;
+}
+.profile{
+  width: 200px;
+  border-radius: 50%;
+}
+
+.social{
+  /*width: 50px;*/
+  border-radius: 50%;
+}
+.profile-border {
+  border-color: white;
+  border-style: solid;
+  border-width: 10px;
+  radius: 50%;
+}
+.image {
+  width: 300px;
+  height: 200px;
+}
+
+ul { 
+  list-style: none;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+#social {
+  margin-bottom: 20px;
+}
+
+#resume {
+  padding-top: 100px; 
+}
+
+#education{
+  padding-top: 100px;
+}
+
+#portfolio{
+  padding-top: 100px;
+}
+
+#strengths {
+  padding-top: 100px;
+}
+
+footer {
+  padding-top: 20px;
+  /*background-color: #150231; purple ish color*/
+  padding-bottom: 20px;
+}
+
+.low-padding {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.col-xs-1 {
+    width: 4.5%; 
+}
+
+h1, h2, h3, h4 {
+  font-family: Jura, Helvetica Neue, sans-serif;
+}
+
+p, ul, nav {
+  font-family: Varela, Helvetica Neue, sans-serif;
+}
