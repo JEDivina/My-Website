@@ -1,9 +1,16 @@
 body, html {
   /*padding-top: 50px;*/
+  box-sizing: border-box;
   background-color: #020731;
   /*margin: 0;*/
   height: 100%;
 
+
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 .jumbotron{
@@ -17,6 +24,12 @@ body, html {
   background-color: white;
 }
 
+.icon{
+
+  max-width: 150px;
+  max-height: 150px;
+
+}
 /* add back in for background image...
 .background-image:before{
   /*padding-left: 15px;
