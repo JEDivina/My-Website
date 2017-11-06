@@ -1,36 +1,25 @@
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<script>
-
 $(document).ready(function (){
+
+   var scroll_start = 0;
+   var startchange = $('#skills');
+   var offset = startchange.offset();
+
   $(".nav li").click(function(){
     $(".nav li").removeClass("active");
     $(this).addClass("active");
   });
 
+  if (startchange.length){
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $(".navbar-default").css('background-color', '#020731');
+        }
+       // } else {
+       //    $('.navbar-default').css('background-color', 'transparent');
+       // }
+   });
+  }
+
 });
-
-</script>
-
-/* ADD THIS BACK IN LATER
-
-
-
-$(document).ready(function (){
-  $("#home-link").click(function(){
-    $('html, body').animate({
-      scrollTop: $("#home").offset().top}, 2000);
-    });
-  
-    $("#portfolio-link").click(function(){
-    $('html, body').animate({
-      scrollTop: $("#portfolio").offset().top}, 2000);
-    });
-  
-    $("#social-link").click(function(){
-    $('html, body').animate({
-      scrollTop: $("#social").offset().top}, 2000);
-    });
-  });
-  */
 
