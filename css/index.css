@@ -1,6 +1,7 @@
 body, html {
 
 font-family: "Work Sans",Helvetica,Arial,sans-serif !important;
+
 }
 
 *, *:before, *:after {
@@ -84,6 +85,17 @@ section {
 
 */
 
+.intro-container {
+
+  display: flex;
+  justify-content: center;
+}
+
+.intro-object{
+  width: 750px;
+  height: 750px;
+}
+
 
 .flex-container {
   padding: 0;
@@ -103,7 +115,7 @@ section {
 .flex-item {
   
   padding: 5px;
-  width: 25%;
+  /*width: 25%;*/
   line-height: 150px;
   color: white;
   font-weight: bold;
@@ -113,6 +125,23 @@ section {
   display: block;
 
 }
+
+/*
+@media (min-width: 410px) {
+  .flex-container .flex-item {
+    max-width: calc(50% - 10px);
+  }
+}
+@media (min-width: 620px) {
+  .flex-container .flex-item {
+    max-width: calc(33.33333% - 10px);
+  }
+}
+@media (min-width: 830px) {
+  .flex-container .flex-item {
+    max-width: calc(25% - 10px);
+  }
+}*/
 
 .navbar-default .navbar-brand {
     color: white;
@@ -147,7 +176,6 @@ section {
 
 .text {
   color: white;
-  font-family: Work Sans, Helvetica Neue, sans-serif;
 }
 
 .profile{
@@ -174,10 +202,5 @@ footer {
 }
 
 h1, h2, h3, h4 {
-  font-family: Work Sans, Helvetica Neue, sans-serif;
   text-transform: uppercase;
-}
-
-p, ul, nav {
-  font-family: Work Sans, Helvetica Neue, sans-serif;
 }
