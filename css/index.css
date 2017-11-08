@@ -23,6 +23,16 @@ font-family: "Work Sans",Helvetica,Arial,sans-serif !important;
 
 }
 
+/*svg {
+
+  position:absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100% 
+
+}*/
+
 .certification{
 
   max-width: 250px;
@@ -31,7 +41,7 @@ font-family: "Work Sans",Helvetica,Arial,sans-serif !important;
 
 section {
   width: 100%;
-  padding: 100px 7% 0 7%;
+  padding: 40px 7% 0 7%;
   display: table;
   margin: 0;
   max-width: none;
