@@ -4,10 +4,10 @@ $(document).ready(function (){
    // var startchange = $('#skills');
    // var offset = startchange.offset();
 
-  $(".nav li").click(function(){
-    $(".nav li").removeClass("active");
-    $(this).addClass("active");
-  });
+  // $(".nav li").click(function(){
+  //   $(".nav li").removeClass("active");
+  //   $(this).addClass("active");
+  // });
 
   // if (startchange.length){
   //  $(document).scroll(function() { 
@@ -22,4 +22,3 @@ $(document).ready(function (){
   // }
 
 });
-
