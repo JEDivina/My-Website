@@ -1,10 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans);
+body {
+  font-family: "Work Sans", Helvetica, Arial, sans-serif !important;
+  color: #020731; }
+
 *, *:before, *:after {
   box-sizing: border-box; }
 
-body {
-  font-family: "Work Sans", Helvetica, Arial, sans-serif;
-  color: #020731; }
+.icon {
+  max-width: 200px;
+  min-width: 200px;
+  max-height: 200px;
+  min-height: 200px; }
+
+/*svg {
+
+  position:absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100% 
+
+}*/
+.certification {
+  max-width: 250px;
+  max-height: 250px; }
 
 section {
   width: 100%;
@@ -20,23 +39,44 @@ section:nth-of-type(2n) {
   background-color: #fff;
   color: #000; }
 
-.icon {
-  width: 200px;
-  height: 200px; }
+/* add back in for background image...
+.background-image:before{
+  /*padding-left: 15px;
+  padding-right: 15px;
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  
+  display: block;
+  background: url("../images/matrix.jpg") no-repeat;
 
-/*svg {
+  /* Full height 
+  height: 100%; 
 
-  position:absolute;
-  top:0;
-  left:0;
-  height: 100%;
-  width: 100% 
+  /* Center and scale the image nicely 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-}*/
-.certification {
-  max-width: 250px;
-  max-height: 250px; }
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
 
+.background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+*/
 .intro-container {
   display: flex;
   justify-content: center; }
@@ -59,6 +99,7 @@ section:nth-of-type(2n) {
 
 .flex-item {
   padding: 5px;
+  /*width: 25%;*/
   line-height: 150px;
   color: white;
   font-weight: bold;
@@ -115,12 +156,6 @@ section:nth-of-type(2n) {
   width: 300px;
   height: 200px; }
 
-.col-xs-1 {
-  width: 4.5%; }
-
-h1, h2, h3, h4 {
-  text-transform: uppercase; }
-
 ul {
   list-style: none; }
 
@@ -129,41 +164,8 @@ footer {
   background-color: #020731;
   padding-bottom: 20px; }
 
-/* add back in for background image...
-.background-image:before{
-  /*padding-left: 15px;
-  padding-right: 15px;
-  content: "";
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  
-  display: block;
-  background: url("../images/matrix.jpg") no-repeat;
+.col-xs-1 {
+  width: 4.5%; }
 
-  /* Full height 
-  height: 100%; 
-
-  /* Center and scale the image nicely 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}
-
-.background-image {
-  position: fixed;
-  left: 0;
-  right: 0;
-  z-index: 0;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-*/
+h1, h2, h3, h4 {
+  text-transform: uppercase; }
