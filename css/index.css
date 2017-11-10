@@ -15,10 +15,9 @@ section {
   background-color: #020731;
   height: 80vh;
   color: #fff; }
-
-section:nth-of-type(2n) {
-  background-color: #fff;
-  color: #000; }
+  section:nth-of-type(2n) {
+    background-color: #fff;
+    color: #000; }
 
 .icon {
   width: 200px;
@@ -56,16 +55,15 @@ section:nth-of-type(2n) {
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: space-between; }
-
-.flex-item {
-  padding: 5px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-  margin: auto;
-  display: block; }
+  .flex-container .flex-item {
+    padding: 5px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    margin: auto;
+    display: block; }
 
 /*
 @media (min-width: 410px) {
@@ -83,21 +81,29 @@ section:nth-of-type(2n) {
     max-width: calc(25% - 10px);
   }
 }*/
-.navbar-default .navbar-brand {
-  color: white; }
+/*.navbar-default .navbar-brand {
+    color: white;
+}
+
 
 .navbar-default {
   color: white !important;
-  background-color: #020731 !important;
+  background-color: $navy !important;
   border-color: transparent;
   background-image: none;
-  box-shadow: none; }
+  box-shadow: none;  
 
-.navbar-default .navbar-nav > li > a {
-  font-size: 20px;
-  color: #fff;
-  text-transform: uppercase; }
+  .navbar-nav > li > a {
 
+    font-size: 20px; 
+    color: #fff; 
+    text-transform: uppercase;
+
+  }
+
+}
+
+*/
 .intro {
   font-size: 250%; }
 

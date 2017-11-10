@@ -28,12 +28,12 @@ section {
   height: 80vh;
   color: #fff;
 
-}
-
-section:nth-of-type(2n) {
+  &:nth-of-type(2n) {
 
   background-color: #fff;
   color: #000;
+
+  }
 
 }
 
@@ -92,21 +92,21 @@ section:nth-of-type(2n) {
   -webkit-flex-flow: row wrap;
   justify-content: space-between;
 
+  .flex-item {
+    
+    padding: 5px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    margin: auto;
+    display: block;
+
+  }
 
 }
 
-.flex-item {
-  
-  padding: 5px;
-  line-height: 150px;
-  color: white;
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-  margin: auto;
-  display: block;
-
-}
 
 /*
 @media (min-width: 410px) {
@@ -125,7 +125,8 @@ section:nth-of-type(2n) {
   }
 }*/
 
-.navbar-default .navbar-brand {
+// navbar styling
+/*.navbar-default .navbar-brand {
     color: white;
 }
 
@@ -136,16 +137,18 @@ section:nth-of-type(2n) {
   border-color: transparent;
   background-image: none;
   box-shadow: none;  
+
+  .navbar-nav > li > a {
+
+    font-size: 20px; 
+    color: #fff; 
+    text-transform: uppercase;
+
+  }
+
 }
 
-
-.navbar-default .navbar-nav > li > a {
-
-   font-size: 20px; 
-   color: #fff; 
-   text-transform: uppercase;
-
-}
+*/
 
 .intro {
   font-size: 250%;
@@ -186,9 +189,11 @@ ul {
 }
 
 footer {
+
   padding-top: 20px;
   background-color: $navy;
   padding-bottom: 20px;
+
 }
 
 /* add back in for background image...
