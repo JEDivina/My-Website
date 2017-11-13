@@ -1,5 +1,5 @@
 // Google Fonts
-@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+@import url(https://fonts.googleapis.com/css?family=Work+Sans|Lato);
 
 $font-stack: 'Work Sans', Helvetica, Arial, sans-serif;
 $navy: #020731;
@@ -37,48 +37,6 @@ section {
 
 }
 
-.icon{
-
-  width: 200px;
-  height: 200px;
-
-  // max-width: 200px;
-  // min-width: 200px;
-  // max-height: 200px;
-  // min-height: 200px;
-
-}
-
-/*svg {
-
-  position:absolute;
-  top:0;
-  left:0;
-  height: 100%;
-  width: 100% 
-
-}*/
-
-.certification{
-
-  max-width: 250px;
-  max-height: 250px;
-
-}
-
-.intro-container {
-
-  display: flex;
-  justify-content: center;
-}
-
-.intro-object{
-
-  width: 750px;
-  height: 750px;
-
-}
-
 .flex-container {
 
   padding: 0;
@@ -106,6 +64,56 @@ section {
   }
 
 }
+
+
+.icon{
+
+  width: 200px;
+  height: 200px;
+
+  max-width: 200px;
+  min-width: 200px;
+  max-height: 200px;
+  min-height: 200px;
+
+}
+
+// svg {
+
+//   position:absolute;
+//   top:0;
+//   left:0;
+//   width: 200px;
+//   height: 200px;
+//   // height: 100%;
+//   // width: 100% 
+
+// }
+
+.certification{
+
+  max-width: 250px;
+  max-height: 250px;
+
+}
+
+.intro {
+  font-size: 250%;
+}
+
+.intro-container {
+
+  display: flex;
+  justify-content: center;
+}
+
+.intro-object{
+
+  width: 750px;
+  height: 750px;
+
+}
+
 
 
 /*
@@ -150,9 +158,6 @@ section {
 
 */
 
-.intro {
-  font-size: 250%;
-}
 
 .media-object{
   max-width: 100px;

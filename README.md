@@ -24,3 +24,7 @@ Record changes to the repository: git commit -m "message"
 
 Update remote refs along with associated objects: git push
 
+To retrieve specific file from git
+
+git fetch
+git checkout HEAD path/to/your/dir/or/file
